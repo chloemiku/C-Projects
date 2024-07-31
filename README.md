@@ -20,14 +20,25 @@ This repository showcases various C projects that I have completed as part of my
 ### Project 1: Blood Type Inheritance Simulation
 This project simulates the genetic inheritance of blood type alleles over multiple generations. It demonstrates my understanding of structs, dynamic memory allocation, and recursion in C.
 
+- **Keywords:**
+  - Recursion
+  - Linked List
+  - Memory Allocation
+
 - **Features**:
   - Simulate inheritance of blood types through multiple generations.
   - Use structs to represent individuals with parents and alleles.
   - Randomly assign alleles to individuals.
   - Print the family tree showing blood types of each member.
 
+
 ### Project 2: Spell Checker
 This project performs spell check to .txt file after loading a dictionary of words from disk into memory. In this project, I implemented a dictionary's functionality using a hash table. The program checks if a word is in the dictionary, loads words into the dictionary from a file, and unloads the dictionary from memory.
+
+- **Keywords:**
+  - Hash Table
+  - Linked List
+  - Memory Allocation
 
 - **Features**:
   - Implement a hash table to store words.
@@ -35,17 +46,29 @@ This project performs spell check to .txt file after loading a dictionary of wor
   - Load words from a dictionary file into the hash table.
   - Unload the dictionary from memory, ensuring no memory leaks.
 
+
  ### Project 3: JPEG Image Recovery
 The JPEG Recovery program is designed to search through a raw memory card file to find and recover JPEG images. The program reads the memory card file in 512-byte blocks and identifies the start of JPEG files by checking for specific header patterns. Once a new JPEG is found, it creates a new file and continues to write the subsequent blocks until the next JPEG header is detected.
+
+- **Keywords:**
+  - File Handling
+  - Memory Management
+  - Error Handling
 
 - **Features**:
   - Handle file by opening memory card file and reads content in fixed-size blocks.
   - Identifies beginning of new JPEG file.
   - Manages buffer operations to ensure smooth file reading and writing.
   - Basic error handling for file operations.
+
  
 ### Project 4: Tideman Voteman System
 The Tideman Voting System project is a C program that implements the Tideman election method, also known as the ranked pairs method. This program is designed to manage ranked voting and determine the winner based on voters’ preferences. It showcases my ability to handle complex data structures, sorting algorithms, and recursive functions in C.
+
+- **Keywords:**
+  - Recursion
+  - Linked List
+  - Sorting Algorithm
 
 - **Description**
 
